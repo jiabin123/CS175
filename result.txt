@@ -1,0 +1,118 @@
+Total number of reviews extracted = 1000
+Extracting tokens from each review.....(can be slow for a large number of reviews)......
+Data shape:  (1000, 15536)
+
+Logistic Classification:
+Training a model with 500 examples.....
+
+Training:
+ accuracy: 74.40
+
+Testing: 
+ accuracy: 74.80
+ AUC value: 77.61
+Most significant positive terms & weight:
+term: matthau        , weight = 0.9615
+term: davies         , weight = 0.8897
+term: lucy           , weight = 0.7589
+term: job            , weight = 0.6750
+term: danish         , weight = 0.6656
+term: bit            , weight = 0.6537
+term: burns          , weight = 0.6384
+term: very           , weight = 0.6237
+term: liked          , weight = 0.6145
+term: chess          , weight = 0.5886
+term: walken         , weight = 0.5278
+term: chinese        , weight = 0.5106
+term: as             , weight = 0.4972
+term: br             , weight = 0.4809
+term: george         , weight = 0.4771
+term: luzhin         , weight = 0.4677
+term: he             , weight = 0.4623
+term: at             , weight = 0.4535
+term: who            , weight = 0.4482
+term: yet            , weight = 0.4338
+Most significant negative terms & weight:
+term: bad            , weight = -0.8941
+term: just           , weight = -0.6047
+term: on             , weight = -0.5957
+term: only           , weight = -0.5907
+term: my             , weight = -0.5850
+term: worst          , weight = -0.5545
+term: me             , weight = -0.4863
+term: it             , weight = -0.4765
+term: too            , weight = -0.4657
+term: ve             , weight = -0.4155
+term: seen           , weight = -0.3961
+term: to             , weight = -0.3869
+term: could          , weight = -0.3714
+term: so             , weight = -0.3687
+term: that           , weight = -0.3636
+term: looking        , weight = -0.3635
+term: if             , weight = -0.3568
+term: sandler        , weight = -0.3534
+term: acting         , weight = -0.3489
+term: been           , weight = -0.3345
+
+Support Vector Machine:
+Training a model with 500 examples.....
+
+Training:
+ accuracy: 98.80
+
+Testing: 
+ accuracy: 75.20
+ AUC value: 77.77
+
+Linear Support Vector Machine:
+Training a model with 500 examples.....
+
+Training:
+ accuracy: 100.00
+
+Testing: 
+ accuracy: 77.80
+Most significant positive terms & weight:
+term: matthau        , weight = 1.1255
+term: bit            , weight = 1.0170
+term: job            , weight = 0.9879
+term: lucy           , weight = 0.9262
+term: liked          , weight = 0.9219
+term: danish         , weight = 0.8613
+term: walken         , weight = 0.8360
+term: davies         , weight = 0.7987
+term: at             , weight = 0.7325
+term: chinese        , weight = 0.7184
+term: chess          , weight = 0.6617
+term: luzhin         , weight = 0.6518
+term: yet            , weight = 0.6443
+term: very           , weight = 0.6386
+term: entertainment  , weight = 0.6357
+term: certainly      , weight = 0.6302
+term: interesting    , weight = 0.6225
+term: tone           , weight = 0.6213
+term: poirot         , weight = 0.6158
+term: can            , weight = 0.6068
+Most significant negative terms & weight:
+term: only           , weight = -0.9256
+term: on             , weight = -0.8616
+term: bad            , weight = -0.8074
+term: just           , weight = -0.6969
+term: worst          , weight = -0.6930
+term: looking        , weight = -0.6713
+term: my             , weight = -0.6590
+term: me             , weight = -0.6397
+term: instead        , weight = -0.5585
+term: doesn          , weight = -0.5244
+term: her            , weight = -0.5223
+term: too            , weight = -0.5221
+term: beginning      , weight = -0.5190
+term: whole          , weight = -0.5005
+term: unfortunately  , weight = -0.4970
+term: seen           , weight = -0.4910
+term: again          , weight = -0.4842
+term: ve             , weight = -0.4783
+term: ned            , weight = -0.4752
+term: could          , weight = -0.4748
+
+Process finished with exit code 0
