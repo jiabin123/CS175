@@ -18,7 +18,7 @@ all_categories = [0, 1]
 n_categories = len(all_categories)
 
 # generate data for category_lines & all_categories
-path = './data/'
+path = './data'
 pos_reviews = []
 neg_reviews = []
 for f_name in os.listdir('./data'):
