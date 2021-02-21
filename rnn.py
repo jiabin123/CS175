@@ -6,6 +6,7 @@ import math
 import torch
 import torch.nn as nn
 
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 all_words = ""
 words = open('imdb.vocab', encoding='utf-8').read().strip().split('\n')
 for w in words:
@@ -17,10 +18,10 @@ all_categories = [0, 1]
 n_categories = len(all_categories)
 
 # generate data for category_lines & all_categories
-path = './data_small/'
+path = './data/'
 pos_reviews = []
 neg_reviews = []
-for f_name in os.listdir('./data_small'):
+for f_name in os.listdir('./data'):
 	file = open((path + f_name), 'r')
 	rating = int(f_name[-5])
 	review = file.read().lower()
